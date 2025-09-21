@@ -4,6 +4,7 @@ import { HeroExperience } from "../Components/HeroModel/HeroExperience"
 import { words } from "../Constants/Index"
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap"; 
+import FeactureCards from "./FeactureCards";
 
 const Hero = () => {
   useGSAP(() => {
@@ -25,7 +26,7 @@ const Hero = () => {
     <section id="hero" className="relative overflow-hidden">
       <div className="hero-layout">
         {/* LEFT: Hero Content */}
-        <header className="absolute top-0 left-0 md:px-20 px-5 py-0">
+        <header className="absolute top-10 left-0 md:px-20 px-5 py-0">
           <div className="flex flex-col gap-7 items-start text-left">
             <div className="hero-text">
               <h1>
@@ -59,7 +60,7 @@ const Hero = () => {
           </p>
         <Button
         className="md:80 md:h-16 w-60 h-12 mt-10"
-        id="button"
+        id="animated-counter"
         text="See My Work"
         />
         </header>
@@ -72,8 +73,9 @@ const Hero = () => {
           </figure>
       </div>
 
+      <div id="animated-counter">
       <AnimatedCounter />              
-
+      </div>
     </section>
   )
 }

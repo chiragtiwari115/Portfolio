@@ -65,8 +65,8 @@ useGSAP(() => {
 }, []);
 
   return (
-    <mesh ref={meshRef} position={[3, 3, 0]}>
-      <planeGeometry args={[3.8, 3.8]} />
+    <mesh ref={meshRef} position={[4, 3, 0]}>
+      <planeGeometry args={[4.1, 3.9]} />
       <meshStandardMaterial map={texture} transparent />
     </mesh>
   );
@@ -74,7 +74,7 @@ useGSAP(() => {
 
 export const HeroExperience = () => (
   
-  <Canvas camera={{ position: [0, 0, 5], fov: 50 }}>
+  <Canvas camera={{ position: [0, 0, 5], fov: 43 }}>
     <ambientLight intensity={0.3} />
     <directionalLight position={[5, 5, 5]} intensity={1.5} />
     <pointLight position={[-5, -6, 5]} intensity={1} color="black" />
