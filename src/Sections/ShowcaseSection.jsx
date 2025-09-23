@@ -97,7 +97,7 @@ const ShowcaseSection = () => {
                             <img
                                 src="images/globeon1.png"
                                 alt="Second Project"
-                                className="rounded-3xl shadow-lg object-cover p-5 md:p-5 w-[450px] h-[450px] md:w-[600px] md:h-[600px] xl:w-[650px] xl:h-[600px] ml-8"
+                                className="rounded-3xl shadow-lg object-cover p-5 md:p-5 w-[550px] h-[450px] md:w-[600px] md:h-[600px] xl:w-[700px] xl:h-[600px] ml-8"
                             />
 
                         </motion.div>
