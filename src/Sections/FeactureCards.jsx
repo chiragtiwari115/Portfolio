@@ -10,7 +10,7 @@ const cardVariants = {
 
 const FeactureCards = () => {
   return (
-    <div className=" padding-x-lg">
+    <div className=" padding-x-lg md:mt-30 mt-32 px-10 py-9">
       <div className="mx-auto grid-3-cols">
         {abilities.map(({ imgPath, title, desc }, i) => (
           <motion.div

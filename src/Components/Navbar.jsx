@@ -27,7 +27,7 @@ const Navbar = () => {
           offset={-50}
           className="logo cursor-pointer"
         >
-          chiraggg.
+          CH!RAG
         </Link>
 
         <nav className="desktop">

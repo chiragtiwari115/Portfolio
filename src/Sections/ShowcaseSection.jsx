@@ -8,7 +8,7 @@ const fadeInUp = {
 
 const ShowcaseSection = () => {
     return (
-        <div id="work" className="app-showcase py-12 px-6">
+        <div id="work" className="app-showcase md:mt-5 mt-2 py-0 px-6">
             <div className="w-full space-y-16">
 
                 {/* ===== FIRST PROJECT ===== */}
