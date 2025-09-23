@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 const socialImgs = [
   {
     name: "LinkedIn",
-    imgPath: "/images/Linkedin.png",
+    imgPath: "/images/linkedin.png",
     link: "https://www.linkedin.com/in/chirag-tiwari-9816a02a6/",
   },
   {
